@@ -6,7 +6,6 @@ from urllib.request import urlopen
 #Titles and subtitles
 st.title("crypto currency daily prices")
 st.header("Main Dashboard")
-st.subheader("you can add more crypto in code")
 
 #defining 
 Bitcoin = 'BTC-USD'
