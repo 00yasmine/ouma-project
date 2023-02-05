@@ -33,8 +33,8 @@ BCH = yf.download(Bitcoincash, start="2023-01-04", end="2023-02-04")
 
 #Bitcoin
 st.write("Bitcoin ($)")
-st.write("Table and Chart :")
 ImageBTC = Image.open(urlopen('https://s2.coinmarketcap.com/static/img/coins/64x64/1.png'))
+st.write("Table and Chart :")
 #display image
 st.image(ImageBTC)
 #display Dataframe
@@ -44,8 +44,8 @@ st.bar_chart(BTCHis.Close)
 
 #Ethereum
 st.write("Ethereum ($)")
-st.write("Table and Chart :")
 ImageETH = Image.open(urlopen('https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png'))
+st.write("Table and Chart :")
 #display image
 st.image(ImageETH)
 #display Dataframe
@@ -55,8 +55,8 @@ st.bar_chart(ETHHis.Close)
 
 #Ripple
 st.write("Ripple ($)")
-st.write("Table and Chart :")
 ImageXRP = Image.open(urlopen('https://s2.coinmarketcap.com/static/img/coins/64x64/52.png'))
+st.write("Table and Chart :")
 #display image
 st.image(ImageXRP)
 #display Dataframe
@@ -66,8 +66,8 @@ st.bar_chart(XRPHis.Close)
 
 #Bitcoincash
 st.write("Bitcoincash ($)")
-st.write("Table and Chart :")
 ImageBCH = Image.open(urlopen('https://s2.coinmarketcap.com/static/img/coins/64x64/1831.png'))
+st.write("Table and Chart :")
 #display image
 st.image(ImageBCH)
 #display Dataframe
