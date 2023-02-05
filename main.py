@@ -32,7 +32,7 @@ XRP = yf.download(Ripple, start="2023-01-04", end="2023-02-04")
 BCH = yf.download(Bitcoincash, start="2023-01-04", end="2023-02-04")
 
 #Bitcoin
-st.write("Bitcoin ($)")
+st.image(ImageBTC)    st.write("Bitcoin ($)")   
 ImageBTC = Image.open(urlopen('https://s2.coinmarketcap.com/static/img/coins/64x64/1.png'))
 #display image
 st.image(ImageBTC)
