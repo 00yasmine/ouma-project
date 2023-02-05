@@ -27,10 +27,10 @@ XRPHis = XRP_Data.history(period="max")
 BCHHis = BCH_Data.history(period="max")
 
 #fetch crypto for the dataframe 
-BTC = yf.download(Bitcoin, start="2023-02-02", end="2023-02-04")
-ETH = yf.download(Ethereum, start="2023-02-02", end="2023-02-04")
-XRP = yf.download(Ripple, start="2023-02-02", end="2023-02-04")
-BCH = yf.download(Bitcoincash, start="2023-02-02", end="2023-02-04")
+BTC = yf.download(Bitcoin, start="2023-01-04", end="2023-02-04")
+ETH = yf.download(Ethereum, start="2023-01-04", end="2023-02-04")
+XRP = yf.download(Ripple, start="2023-01-04", end="2023-02-04")
+BCH = yf.download(Bitcoincash, start="2023-01-04", end="2023-02-04")
 
 #Bitcoin
 st.write("Bitcoin ($)")
