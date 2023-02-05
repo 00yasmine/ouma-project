@@ -34,9 +34,10 @@ BCH = yf.download(Bitcoincash, start="2023-01-04", end="2023-02-04")
 #Bitcoin
 st.write("Bitcoin ($)")
 ImageBTC = Image.open(urlopen('https://s2.coinmarketcap.com/static/img/coins/64x64/1.png'))
-st.write("Table and Chart :")
 #display image
 st.image(ImageBTC)
+
+st.write("Table and Chart :")
 #display Dataframe
 st.table(BTC)
 #display Dataframe
